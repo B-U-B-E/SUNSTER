@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/bubePlav.ico" type="image/x-icon">
+    <title>Bube's project</title>
+
+    <script src="https://kit.fontawesome.com/6b281d38f1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <!-- MENU -->
+
+
+
+    <div class="menu ">
+        <div class="logo">
+            <div class="logo-img">
+                <a href="#"><img src="./img/Logo.png" alt=""></a>
+            </div>
+            <span class="logo-text">Brainster</span>
+        </div>
+
+
+        <ul class="navigation ">
+            <li class="navigation-link"><a href="./index.html">Академија за маркетинг</a> </li>
+            <li class="navigation-link"><a href="./index.html">Академија за програмирање</a> </li>
+            <li class="navigation-link"><a href="./index.html">Академија за data science</a> </li>
+            <li class="navigation-link"><a href="./index.html">Академија за дизајн</a> </li>
+            <li class="navigation-link"><a href="./index.html">Вработи наш студент</a> </li>
+        </ul>
+
+        <div class="icon-open"><i class="fa-solid fa-brain"></i></div>
+        <div class="icon-close"><i class="fa-solid fa-skull-crossbones"></i></div>
+
+    </div>
+
+
+
+    <div id="contact">
+        <h1>Вработи студенти</h1>
+
+        <!-- action="/action_page.php" method="get" -->
+        <form id="formBube" action="mailto:mir.bor@t-home.mk" method="post">
+
+            <div class="container-form ">
+
+                <div class=" row-form">
+
+                    <div class="col-form">
+                        <div class="form-content">
+                            <label for="nameLastName">Име и презиме</label>
+                            <input type="text" id="nameLastName" name="nameLastName" placeholder="Вашето име и презиме"
+                                required>
+
+                        </div>
+                    </div>
+                    <div class="col-form">
+                        <div class="form-content">
+                            <label for="nameCompany">Име на компанија</label>
+                            <input type="text" id="nameCompany" name="company" placeholder="Име на вашата компанија"
+                                required>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row-form">
+                    <div class="col-form">
+                        <div class="form-content">
+
+                            <label for="contactEmail">Контакт имејл</label>
+                            <input type="text" name="contactEmail" id="contactEmail"
+                                placeholder="Контакт имајл на вашата компанија" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,}"
+                                required>
+
+
+                        </div>
+                    </div>
+                    <div class="col-form">
+                        <div class="form-content">
+
+                            <label for="phoneNumber">Контакт телефон</label>
+                            <input type="tel" id="phoneNumber" name="Phone"
+                                placeholder="Контакт телефон на вашата компанија" required>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row-form">
+                    <div class="col-form">
+                        <div class="form-content">
+                            <label for="tip-student">Тип на студенти</label>
+                            <input style="text-align: left;" type="button" id="tip-student" class="tip"
+                                value="Изберете тип на студент">
+                            <i class="fa-solid fa-chevron-down icon-pagnation"></i>
+
+                        </div>
+                        <!-- work js with out option and select -->
+                        <!-- work js with out option and select -->
+                        <!-- work js with out option and select -->
+                        <ul class="base-student hide">
+
+                            <li class="list-student" id="student-marketing">Студенти од маркетинг</li>
+
+
+                            <li class="list-student" id="student-programming">Студенти од програмирање
+                            </li>
+
+
+                            <li class="list-student" id="student-science">Студенти од data science</li>
+
+
+                            <li class="list-student" id="student-design">Студенти од дизајн</li>
+
+                        </ul>
+                    </div>
+
+
+
+                    <div class="col-form submit" style="background: none;">
+                        <div class="form-content">
+                            <input type="submit" value="ИСПРАТИ">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </form>
+
+    </div>
+
+
+
+
+    <footer class="footer-contact">
+        Изработено со ❤ од Љубомир Шукаров Бубе
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./work.js"></script>
+
+</body>
+
+</html>
