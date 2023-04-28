@@ -712,12 +712,18 @@ h3 {
   transition: all 0.3s ease-in-out;
   border: none;
   padding: 0.9375rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 #contact .container-form .row-form .submit .form-content input:hover {
   background: none;
   box-shadow: 0 0 0 5px #ff1300;
   color: #302f38;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 @media (max-width: 768px) {
